@@ -1,146 +1,145 @@
 body {
-    background-image: url("./Images/pattern-background-desktop.svg");
-    background-color: #e0e8ff;
-    background-repeat: repeat-x;
+    font-family: "Kumbh San", sans-serif;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
-}
-.back {
-    width: 1440px;
-    height: 437px;
-    color: #D6E1FF;  
-    margin-top: -10px; 
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 45vw bottom 25vh, left 45vw top 44vh;
+    
 }
 .conteiner {
-    width: 450px;
-    height: 697px;
-    margin-top: -250px;
-    border-radius: 20px;
-    background-color: #ffff;
+    width: 350px;
+    height: 374px;
+    background-color: #fff;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+}
+.bubbls{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     overflow: hidden;
-    max-width: 100vh;
-    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
-
 }
-#hero {
-    width: 450px;
-    height: 220px;
-}
-h1 {
-    width: 354px;
-    height: 37px;
-    top: 265px;
-    left: 48px;
-    font: red hat display;
-    font-weight: 900;
-    line-height: 37px;
-    size: 28px;
-    text-align: center;
-    color: #1F2E55;
-}
-.h1p{
-    
-    width: 310px; ;
-    height: 78px;
-    top: calc(50% - 78px/2 + 9.5px);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    margin-top: -17px;
-    align-items: center;
-    text-align: center;
-    font-family: 'Red Hat Display';
-    color: #717FA6;
-}
-.items {
-    background-color: #f7f9ff;
-    width: 354px;
-    height: 98px;
-    margin: 20px 48px 0px 48px;
-    position: relative;
+.victor {
+    justify-content: center;
     display: flex;
-    padding: 0px;
-    border-radius: 11px;
-}
-.musicimg {
-    width: 48px;
-    height: 48px;
-    margin: 25px 20px 25px 25px;
-}
-.Annual-Plan {
-    width:117.19px;
-    height: 21px;
-    font-size: 16px;
-    line-height: 21px;
-    font-style: normal;
-    font-weight: 900;
-    margin-top: 26px;
-    margin-left: -14px;
-    color: #1F2E55;
+    margin-top: -50px;
 
 }
-.prise {
-    width: 92px;
-    color: #717FA6;
-    line-height: 21px;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: -110px;
-    margin-top: 50px;
+.victor img {
+    width: 96px;
+    height: 96px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 5px solid #fff;
 }
-.Change-link {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    margin: 0px;
-    bottom: 39px;
-    left: 278px;
+.person .name {
+    width: 104px;
+    height: 18px;
+    font-family: 'Kumbh Sans';
     font-style: normal;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+    margin-top: -11px;
+    margin-left: -27px;
+}
+.person .age {
+    height: 18px;
+    width: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B7082;
+    margin-top: -36px;
+    margin-left: 110px;
+}
+.person .location {
+    width: 50px;
+    height: 14px;
+    color: #6B7082;
+    font-weight: 400px;
     font-size: 14px;
-    line-height: 19px;
-    color: #382ae1;
-    text-decoration-line: underline;
+    line-height: 17px;
+    margin-top: -2px;
 }
-.payment {
-    background-size: 50px 354px ;
-    background-color: #382AE1;
-    padding: 15px 102px 15px 102px;
-    margin: 32px 48px 0px 48px;
+hr {
+    width: 350px;
+    height: 1px;
     overflow: hidden;
-    border-radius: 11px;
-    width: 150px;
-    height: 20px;
-    font-family: 'Red Hat Display';
+    background: #E8E9EC;
+    margin-left: -1px;
+    margin-top: 35px;
+}
+.followers .sub {
+    width: 35px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    margin-left: -200px;
+}
+.followers .follow {
+    width: 56px;
+    height: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-left: -200px;
+    margin-top: -7px;
+}
+.likes .p1 {
+    width: 46px;
+    height: 18px;
     font-style: normal;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 20px;
-    margin: 32px;
-    color: #FFFFFF;
-    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    margin-top: -48px;
 }
-#cancel {
-    width: 96px;
-    height: 20px;
-    font-weight: 900;
-    size: 15px;
-    font-style: normal;
-    line-height: 20px;
-    color: #717FA6;
+.likes .like {
+    width: 29px;
+    height: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-top: -8px;
 }
-.payment:hover {
-    background: #766CF1;
+.photos .p1 {
+    width: 38px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    margin-left: 200px;
+    margin-top: -48px;
 }
-.Change-link:hover {
-    color: #766CF1;
-    text-decoration-line: none;
+.photos .p2 {
+    width: 40px;
+    height: 10px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #6B7082;
+    margin-left: 200px;
+    margin-top: -8px;
 }
-#cancel:hover {
-    color: #1F2E55;
-}
+@media only screen and (min-width: 500px) {
+    .container {
+      width: 326px;
+    }
+   
+  }
